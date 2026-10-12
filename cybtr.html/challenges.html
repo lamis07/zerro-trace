@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>zero trace - Challenges</title>
+   
+</head>
+<body>
+    <header>
+        <h1>zero trace</h1>
+        <p> learn , chace , and challange your skills </p>
+    </header>
+    <br>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="challenges.html">Challenges</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <section id="chaenges">
+        <h2>Challenges</h2>
+        <p>Welcome to the challenges page!</p>
+        <input type="text" placeholder="what are you looking for ?">
+        <button>Search</button>
+         <div class="filter-buttons">
+            <button data-category="web">Web Exploitation</button>
+            <button data-category="crypto">Cryptography</button>
+            <button data-category="reverse">Reverse Engineering</button>
+            <button data-category="pwn">Pwn</button>
+            <button data-category="misc">Misc</button>
+         </div>
+            <div id="challenge-list">
+                <div class="challenge-card" data-category="web">
+                    <h3>SQL Injection</h3>
+                    <p class="difficulty">Difficulty: Easy</p>
+                    <p class="points">Points: 100</p>
+                     <button class="start-challange-btn">Start Challenge</button>
+                </div>
+                <div class="challenge-card" data-category="crypto">
+                    <h3>binary hunter</h3>
+                    <p class="difficulty">Difficulty: Medium</p>
+                    <p class="points">Points: 200</p>
+                     <button class="start-challange-btn">Start Challenge</button>
+                </div>
+                <div class="challenge-card" data-category="reverse">
+                    <h3>hidden sifer</h3>
+                    <p class="difficulty">Difficulty: Hard</p>
+                    <p class="points">Points: 300</p>
+                     <button class="start-challange-btn">Start Challenge</button>
+                </div>
+                <div class="challenge-card" data-category="pwn">
+                    <h3>Pwn Challenge 1</h3>
+                    <p class="difficulty">Difficulty: Very Hard</p>
+                    <p class="points">Points: 500</p>
+                     <button class="start-challange-btn">Start Challenge</button>
+                </div>
+                <div class="challenge-card" data-category="misc">
+                    <h3>Misc Challenge 1</h3>
+                    <p class="difficulty">Difficulty: Easy</p>
+                    <p class="points">Points: 100</p>
+                     <button class="start-challange-btn">Start Challenge</button>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 zero trace. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
